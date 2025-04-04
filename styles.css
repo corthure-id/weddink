@@ -1,0 +1,162 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #075e54;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.group-link {
+    color: white;
+    text-decoration: none;
+}
+
+.group-link:hover {
+    text-decoration: underline;
+}
+
+/* Bubble Chat */
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 400px;
+}
+
+.chat-bubble {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dcf8c6;
+    display: inline-block;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.chat-bubble:nth-child(odd) {
+    background-color: #e6e6e6;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Input Chat */
+.chat-input {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chat-input button {
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #1da851;
+}
+
+/* Tombol RSVP */
+.rsvp-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rsvp-button:hover {
+    background-color: #1da851;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+}
+
+/* Gaya Halaman Info Grup */
+.group-header {
+    background-color: #075e54;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.group-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.group-description, .group-members {
+    margin-bottom: 20px;
+}
+
+.group-members ul {
+    list-style: none;
+    padding: 0;
+}
+
+.group-members li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.group-members img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Tombol Kembali */
+.back-button {
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #1da851;
+}
